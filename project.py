@@ -18,5 +18,5 @@ zootopia = showtime.Movie("Zootopia","1 hr 48 mins",
 
 #creting list contains all the movies that have been created
 movies = [sing,hacksaw_ridge,zootopia]
-#calling method from magician creates the html page containing all the movies
+#calling method from magician creates the HTML page containing all the movies
 magician.open_movies_page(movies)
