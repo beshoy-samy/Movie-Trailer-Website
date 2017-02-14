@@ -1,6 +1,7 @@
 import fresh_tomatoes as magician
 import showtime
 
+#create a movie object named sing
 sing = showtime.Movie("Sing","1 hr 48 mins",
                             "https://upload.wikimedia.org/wikipedia/en/b/bb/Sing_%282016_film%29_poster.jpg",
                             "https://www.youtube.com/watch?v=9qPgK_u4vX8")
@@ -13,7 +14,9 @@ zootopia = showtime.Movie("Zootopia","1 hr 48 mins",
                             "https://upload.wikimedia.org/wikipedia/en/e/ea/Zootopia.jpg",
                             "https://www.youtube.com/watch?v=jWM0ct-OLsM")
 
+#print(showtime.Movie.__doc__)
 
+#creting list contains all the movies that have been created
 movies = [sing,hacksaw_ridge,zootopia]
-
+#calling method from magician creates the html page containing all the movies
 magician.open_movies_page(movies)
